@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      "Hello 2018"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2018-11-21 12:00:00
+author:     "Hux"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 生活
+    - Meta
+---
+哈哈哈哈哈哈哈哈
+
+

@@ -1,24 +1,110 @@
 # Site settings
-name: Xiao Xin
+title: Xiao丶Xin
+SEOTitle: 老天的博客 | 小丶心
+header-img: img/home-bg.jpg
 email: 1042889392@qq.com
-author: Cool Wu
-github: https://github.com/DingMr/
-baseurl: ""
-description: 小心会流泪的眼睛!
-meta_description: 只要够叼，世界就小！
-motto: Love You！
-banner: 你的眼睛摄人心魄，我非常喜欢！
+description: "阳光晒过的路是年轻的温度"
+keyword: "阳光晒过的路是年轻的温度！"
+url: "https://dingmr.github.io/"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+# Publish posts or collection documents with a future date.
+future: true
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# SNS settings
+RSS: false
+zhihu_username:     DingMr
+github_username:    DingMr
+#facebook_username:  huxpro
+#linkedin_username:  firstname-lastname-idxxxx
 
-github_username: DingMr
+
 
 # Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
+
+# Disqus settings
+disqus_username: hux
+
+# Netease settings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+
+
+
+# Sidebar settings 侧拉头像
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "我愿这颗永远跳动的心如盛开的暖阳！"
+sidebar-avatar: /img/person.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+friends: [
+    {
+    #     title: "Su",
+    #     href: "http://su.gallery/"
+    # },{
+        title: "阿里巴巴矢量图",
+        href: "http://www.iconfont.cn/collections/detail?cid=1516"
+    }
+]
