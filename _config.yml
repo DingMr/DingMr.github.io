@@ -4,10 +4,10 @@ email: 1042889392@qq.com
 author: Cool Wu
 github: https://github.com/DingMr/
 baseurl: ""
-description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+description: 小心会流泪的眼睛!
+meta_description: 只要够叼，世界就小！
+motto: Love You！
+banner: 你的眼睛摄人心魄，我非常喜欢！
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
