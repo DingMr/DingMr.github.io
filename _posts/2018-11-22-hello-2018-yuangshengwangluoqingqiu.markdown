@@ -9,7 +9,9 @@ catalog: true
 tags:
     - Android
 ---
+
 ```
+
 //get无参数
  public void login() {
         try {
@@ -33,7 +35,8 @@ tags:
 
     String str_url = "xxxxxxxxxxxxxxxxxxx";
 
-//post带参数
+    //post带参数
+
     public void postParameter() {
         try {
             //str_url：后台地址 Login：方法名称 （此处方法名称可根据实际情况改变）
@@ -72,7 +75,8 @@ tags:
         }
     }
 }
+
 ```
-、、注：使用以上两个方法需要开辟新线程，不可在主线程直接调用。
+注：使用以上两个方法需要开辟新线程，不可在主线程直接调用。
 
 

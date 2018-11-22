@@ -1,14 +1,14 @@
 ---
 layout:     post
 title:      "Android RabbitMQ入门第一章"
-subtitle:   " \"Android RabbitMQ的简单发送及接收\""
+subtitle:   " \"Android-RabbitMQ的简单发送及接收\""
 date:       2018-11-21 17:52:00
 author:     "Xiao"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
     - Android
-	- RabbitMQ
+    - RabbitMQ
 ---
 
 ## Android Rabbit发送与接收
